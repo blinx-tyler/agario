@@ -539,7 +539,7 @@ function gameLoop() {
         graph.textAlign = 'center';
         graph.fillStyle = '#FFFFFF';
         graph.font = 'bold 30px sans-serif';
-        graph.fillText('Ya dead. <br>This  was brought to you by tyler.', global.screenWidth / 2, global.screenHeight / 2);
+        graph.fillText('Ya dead. This  was brought to you by tyler.', global.screenWidth / 2, global.screenHeight / 2);
     }
     else if (!global.disconnected) {
         if (global.gameStart) {
